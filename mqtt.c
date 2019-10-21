@@ -39,9 +39,9 @@
 #define FLASH_TEST_SIZE    0x1000
 
 static const char gsdk_test_data[] =
-    "11111111,39.100.229.63,1883";
+    "11111111,255.255.55.255,1883";
 
-char mqttserver[32] = "39.100.229.63";
+char mqttserver[32] = "255.255.55.255";
 char mqttport[16] = "1883";
 char mqttid[32] = "11111111";
 
